@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		3F1620C521D0A8930090FEDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1620C421D0A8930090FEDA /* AppDelegate.swift */; };
-		3F1620C721D0A8930090FEDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1620C621D0A8930090FEDA /* ViewController.swift */; };
+		3F1620C721D0A8930090FEDA /* PersonalCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1620C621D0A8930090FEDA /* PersonalCenterViewController.swift */; };
 		3F1620CA21D0A8930090FEDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1620C821D0A8930090FEDA /* Main.storyboard */; };
 		3F1620CD21D0A8930090FEDA /* SavemoneyThree.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F1620CB21D0A8930090FEDA /* SavemoneyThree.xcdatamodeld */; };
 		3F1620CF21D0A8940090FEDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F1620CE21D0A8940090FEDA /* Assets.xcassets */; };
 		3F1620D221D0A8940090FEDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1620D021D0A8940090FEDA /* LaunchScreen.storyboard */; };
 		3F1620DD21D0A8940090FEDA /* SavemoneyThreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1620DC21D0A8940090FEDA /* SavemoneyThreeTests.swift */; };
 		3F1620E821D0A8940090FEDA /* SavemoneyThreeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1620E721D0A8940090FEDA /* SavemoneyThreeUITests.swift */; };
+		3F1620F621D0C2770090FEDA /* FeedBackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1620F521D0C2770090FEDA /* FeedBackViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,7 @@
 /* Begin PBXFileReference section */
 		3F1620C121D0A8930090FEDA /* SavemoneyThree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SavemoneyThree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F1620C421D0A8930090FEDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F1620C621D0A8930090FEDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F1620C621D0A8930090FEDA /* PersonalCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalCenterViewController.swift; sourceTree = "<group>"; };
 		3F1620C921D0A8930090FEDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F1620CC21D0A8930090FEDA /* SavemoneyThree.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SavemoneyThree.xcdatamodel; sourceTree = "<group>"; };
 		3F1620CE21D0A8940090FEDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		3F1620E321D0A8940090FEDA /* SavemoneyThreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SavemoneyThreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F1620E721D0A8940090FEDA /* SavemoneyThreeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavemoneyThreeUITests.swift; sourceTree = "<group>"; };
 		3F1620E921D0A8940090FEDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F1620F521D0C2770090FEDA /* FeedBackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedBackViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		3F1620B821D0A8930090FEDA = {
 			isa = PBXGroup;
 			children = (
+				3F1620F521D0C2770090FEDA /* FeedBackViewController.swift */,
 				3F1620C321D0A8930090FEDA /* SavemoneyThree */,
 				3F1620DB21D0A8940090FEDA /* SavemoneyThreeTests */,
 				3F1620E621D0A8940090FEDA /* SavemoneyThreeUITests */,
@@ -100,7 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				3F1620C421D0A8930090FEDA /* AppDelegate.swift */,
-				3F1620C621D0A8930090FEDA /* ViewController.swift */,
+				3F1620C621D0A8930090FEDA /* PersonalCenterViewController.swift */,
 				3F1620C821D0A8930090FEDA /* Main.storyboard */,
 				3F1620CE21D0A8940090FEDA /* Assets.xcassets */,
 				3F1620D021D0A8940090FEDA /* LaunchScreen.storyboard */,
@@ -260,8 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F1620CD21D0A8930090FEDA /* SavemoneyThree.xcdatamodeld in Sources */,
-				3F1620C721D0A8930090FEDA /* ViewController.swift in Sources */,
+				3F1620C721D0A8930090FEDA /* PersonalCenterViewController.swift in Sources */,
 				3F1620C521D0A8930090FEDA /* AppDelegate.swift in Sources */,
+				3F1620F621D0C2770090FEDA /* FeedBackViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
