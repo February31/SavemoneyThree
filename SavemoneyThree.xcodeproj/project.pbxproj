@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F1620C521D0A8930090FEDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1620C421D0A8930090FEDA /* AppDelegate.swift */; };
+		3F1620C721D0A8930090FEDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1620C621D0A8930090FEDA /* ViewController.swift */; };
+		3F1620CA21D0A8930090FEDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1620C821D0A8930090FEDA /* Main.storyboard */; };
+		3F1620CD21D0A8930090FEDA /* SavemoneyThree.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F1620CB21D0A8930090FEDA /* SavemoneyThree.xcdatamodeld */; };
+		3F1620CF21D0A8940090FEDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F1620CE21D0A8940090FEDA /* Assets.xcassets */; };
+		3F1620D221D0A8940090FEDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1620D021D0A8940090FEDA /* LaunchScreen.storyboard */; };
+		3F1620DD21D0A8940090FEDA /* SavemoneyThreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1620DC21D0A8940090FEDA /* SavemoneyThreeTests.swift */; };
+		3F1620E821D0A8940090FEDA /* SavemoneyThreeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1620E721D0A8940090FEDA /* SavemoneyThreeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F1620D921D0A8940090FEDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F1620B921D0A8930090FEDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F1620C021D0A8930090FEDA;
+			remoteInfo = SavemoneyThree;
+		};
+		3F1620E421D0A8940090FEDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F1620B921D0A8930090FEDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F1620C021D0A8930090FEDA;
+			remoteInfo = SavemoneyThree;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F1620C121D0A8930090FEDA /* SavemoneyThree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SavemoneyThree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1620C421D0A8930090FEDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F1620C621D0A8930090FEDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F1620C921D0A8930090FEDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F1620CC21D0A8930090FEDA /* SavemoneyThree.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SavemoneyThree.xcdatamodel; sourceTree = "<group>"; };
+		3F1620CE21D0A8940090FEDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F1620D121D0A8940090FEDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F1620D321D0A8940090FEDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F1620D821D0A8940090FEDA /* SavemoneyThreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SavemoneyThreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1620DC21D0A8940090FEDA /* SavemoneyThreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavemoneyThreeTests.swift; sourceTree = "<group>"; };
+		3F1620DE21D0A8940090FEDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F1620E321D0A8940090FEDA /* SavemoneyThreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SavemoneyThreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1620E721D0A8940090FEDA /* SavemoneyThreeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavemoneyThreeUITests.swift; sourceTree = "<group>"; };
+		3F1620E921D0A8940090FEDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F1620BE21D0A8930090FEDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1620D521D0A8940090FEDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1620E021D0A8940090FEDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F1620B821D0A8930090FEDA = {
+			isa = PBXGroup;
+			children = (
+				3F1620C321D0A8930090FEDA /* SavemoneyThree */,
+				3F1620DB21D0A8940090FEDA /* SavemoneyThreeTests */,
+				3F1620E621D0A8940090FEDA /* SavemoneyThreeUITests */,
+				3F1620C221D0A8930090FEDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F1620C221D0A8930090FEDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F1620C121D0A8930090FEDA /* SavemoneyThree.app */,
+				3F1620D821D0A8940090FEDA /* SavemoneyThreeTests.xctest */,
+				3F1620E321D0A8940090FEDA /* SavemoneyThreeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F1620C321D0A8930090FEDA /* SavemoneyThree */ = {
+			isa = PBXGroup;
+			children = (
+				3F1620C421D0A8930090FEDA /* AppDelegate.swift */,
+				3F1620C621D0A8930090FEDA /* ViewController.swift */,
+				3F1620C821D0A8930090FEDA /* Main.storyboard */,
+				3F1620CE21D0A8940090FEDA /* Assets.xcassets */,
+				3F1620D021D0A8940090FEDA /* LaunchScreen.storyboard */,
+				3F1620D321D0A8940090FEDA /* Info.plist */,
+				3F1620CB21D0A8930090FEDA /* SavemoneyThree.xcdatamodeld */,
+			);
+			path = SavemoneyThree;
+			sourceTree = "<group>";
+		};
+		3F1620DB21D0A8940090FEDA /* SavemoneyThreeTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F1620DC21D0A8940090FEDA /* SavemoneyThreeTests.swift */,
+				3F1620DE21D0A8940090FEDA /* Info.plist */,
+			);
+			path = SavemoneyThreeTests;
+			sourceTree = "<group>";
+		};
+		3F1620E621D0A8940090FEDA /* SavemoneyThreeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F1620E721D0A8940090FEDA /* SavemoneyThreeUITests.swift */,
+				3F1620E921D0A8940090FEDA /* Info.plist */,
+			);
+			path = SavemoneyThreeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F1620C021D0A8930090FEDA /* SavemoneyThree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F1620EC21D0A8940090FEDA /* Build configuration list for PBXNativeTarget "SavemoneyThree" */;
+			buildPhases = (
+				3F1620BD21D0A8930090FEDA /* Sources */,
+				3F1620BE21D0A8930090FEDA /* Frameworks */,
+				3F1620BF21D0A8930090FEDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SavemoneyThree;
+			productName = SavemoneyThree;
+			productReference = 3F1620C121D0A8930090FEDA /* SavemoneyThree.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F1620D721D0A8940090FEDA /* SavemoneyThreeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F1620EF21D0A8940090FEDA /* Build configuration list for PBXNativeTarget "SavemoneyThreeTests" */;
+			buildPhases = (
+				3F1620D421D0A8940090FEDA /* Sources */,
+				3F1620D521D0A8940090FEDA /* Frameworks */,
+				3F1620D621D0A8940090FEDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F1620DA21D0A8940090FEDA /* PBXTargetDependency */,
+			);
+			name = SavemoneyThreeTests;
+			productName = SavemoneyThreeTests;
+			productReference = 3F1620D821D0A8940090FEDA /* SavemoneyThreeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F1620E221D0A8940090FEDA /* SavemoneyThreeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F1620F221D0A8940090FEDA /* Build configuration list for PBXNativeTarget "SavemoneyThreeUITests" */;
+			buildPhases = (
+				3F1620DF21D0A8940090FEDA /* Sources */,
+				3F1620E021D0A8940090FEDA /* Frameworks */,
+				3F1620E121D0A8940090FEDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F1620E521D0A8940090FEDA /* PBXTargetDependency */,
+			);
+			name = SavemoneyThreeUITests;
+			productName = SavemoneyThreeUITests;
+			productReference = 3F1620E321D0A8940090FEDA /* SavemoneyThreeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F1620B921D0A8930090FEDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = SICNU;
+				TargetAttributes = {
+					3F1620C021D0A8930090FEDA = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					3F1620D721D0A8940090FEDA = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 3F1620C021D0A8930090FEDA;
+					};
+					3F1620E221D0A8940090FEDA = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 3F1620C021D0A8930090FEDA;
+					};
+				};
+			};
+			buildConfigurationList = 3F1620BC21D0A8930090FEDA /* Build configuration list for PBXProject "SavemoneyThree" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F1620B821D0A8930090FEDA;
+			productRefGroup = 3F1620C221D0A8930090FEDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F1620C021D0A8930090FEDA /* SavemoneyThree */,
+				3F1620D721D0A8940090FEDA /* SavemoneyThreeTests */,
+				3F1620E221D0A8940090FEDA /* SavemoneyThreeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F1620BF21D0A8930090FEDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1620D221D0A8940090FEDA /* LaunchScreen.storyboard in Resources */,
+				3F1620CF21D0A8940090FEDA /* Assets.xcassets in Resources */,
+				3F1620CA21D0A8930090FEDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1620D621D0A8940090FEDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1620E121D0A8940090FEDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F1620BD21D0A8930090FEDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1620CD21D0A8930090FEDA /* SavemoneyThree.xcdatamodeld in Sources */,
+				3F1620C721D0A8930090FEDA /* ViewController.swift in Sources */,
+				3F1620C521D0A8930090FEDA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1620D421D0A8940090FEDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1620DD21D0A8940090FEDA /* SavemoneyThreeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1620DF21D0A8940090FEDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1620E821D0A8940090FEDA /* SavemoneyThreeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F1620DA21D0A8940090FEDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F1620C021D0A8930090FEDA /* SavemoneyThree */;
+			targetProxy = 3F1620D921D0A8940090FEDA /* PBXContainerItemProxy */;
+		};
+		3F1620E521D0A8940090FEDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F1620C021D0A8930090FEDA /* SavemoneyThree */;
+			targetProxy = 3F1620E421D0A8940090FEDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F1620C821D0A8930090FEDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F1620C921D0A8930090FEDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F1620D021D0A8940090FEDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F1620D121D0A8940090FEDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F1620EA21D0A8940090FEDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F1620EB21D0A8940090FEDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F1620ED21D0A8940090FEDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SavemoneyThree/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-016110409.SavemoneyThree";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F1620EE21D0A8940090FEDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SavemoneyThree/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-016110409.SavemoneyThree";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F1620F021D0A8940090FEDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SavemoneyThreeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-016110409.SavemoneyThreeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SavemoneyThree.app/SavemoneyThree";
+			};
+			name = Debug;
+		};
+		3F1620F121D0A8940090FEDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SavemoneyThreeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-016110409.SavemoneyThreeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SavemoneyThree.app/SavemoneyThree";
+			};
+			name = Release;
+		};
+		3F1620F321D0A8940090FEDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SavemoneyThreeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-016110409.SavemoneyThreeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SavemoneyThree;
+			};
+			name = Debug;
+		};
+		3F1620F421D0A8940090FEDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SavemoneyThreeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-016110409.SavemoneyThreeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SavemoneyThree;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F1620BC21D0A8930090FEDA /* Build configuration list for PBXProject "SavemoneyThree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1620EA21D0A8940090FEDA /* Debug */,
+				3F1620EB21D0A8940090FEDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F1620EC21D0A8940090FEDA /* Build configuration list for PBXNativeTarget "SavemoneyThree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1620ED21D0A8940090FEDA /* Debug */,
+				3F1620EE21D0A8940090FEDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F1620EF21D0A8940090FEDA /* Build configuration list for PBXNativeTarget "SavemoneyThreeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1620F021D0A8940090FEDA /* Debug */,
+				3F1620F121D0A8940090FEDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F1620F221D0A8940090FEDA /* Build configuration list for PBXNativeTarget "SavemoneyThreeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1620F321D0A8940090FEDA /* Debug */,
+				3F1620F421D0A8940090FEDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3F1620CB21D0A8930090FEDA /* SavemoneyThree.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3F1620CC21D0A8930090FEDA /* SavemoneyThree.xcdatamodel */,
+			);
+			currentVersion = 3F1620CC21D0A8930090FEDA /* SavemoneyThree.xcdatamodel */;
+			path = SavemoneyThree.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3F1620B921D0A8930090FEDA /* Project object */;
+}
