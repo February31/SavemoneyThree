@@ -16,6 +16,9 @@
 		3F1620DD21D0A8940090FEDA /* SavemoneyThreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1620DC21D0A8940090FEDA /* SavemoneyThreeTests.swift */; };
 		3F1620E821D0A8940090FEDA /* SavemoneyThreeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1620E721D0A8940090FEDA /* SavemoneyThreeUITests.swift */; };
 		3F1620F621D0C2770090FEDA /* FeedBackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1620F521D0C2770090FEDA /* FeedBackViewController.swift */; };
+		3F1620F821D0EE500090FEDA /* PS_TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1620F721D0EE500090FEDA /* PS_TableViewController.swift */; };
+		3F1620FA21D0F38D0090FEDA /* PS_headImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1620F921D0F38D0090FEDA /* PS_headImageTableViewCell.swift */; };
+		3F1620FC21D117360090FEDA /* updatePwdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1620FB21D117350090FEDA /* updatePwdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		3F1620E721D0A8940090FEDA /* SavemoneyThreeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavemoneyThreeUITests.swift; sourceTree = "<group>"; };
 		3F1620E921D0A8940090FEDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F1620F521D0C2770090FEDA /* FeedBackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedBackViewController.swift; sourceTree = "<group>"; };
+		3F1620F721D0EE500090FEDA /* PS_TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PS_TableViewController.swift; sourceTree = "<group>"; };
+		3F1620F921D0F38D0090FEDA /* PS_headImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PS_headImageTableViewCell.swift; sourceTree = "<group>"; };
+		3F1620FB21D117350090FEDA /* updatePwdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = updatePwdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 		3F1620B821D0A8930090FEDA = {
 			isa = PBXGroup;
 			children = (
+				3F1620FB21D117350090FEDA /* updatePwdViewController.swift */,
 				3F1620F521D0C2770090FEDA /* FeedBackViewController.swift */,
 				3F1620C321D0A8930090FEDA /* SavemoneyThree */,
 				3F1620DB21D0A8940090FEDA /* SavemoneyThreeTests */,
@@ -105,6 +112,8 @@
 				3F1620C421D0A8930090FEDA /* AppDelegate.swift */,
 				3F1620C621D0A8930090FEDA /* PersonalCenterViewController.swift */,
 				3F1620C821D0A8930090FEDA /* Main.storyboard */,
+				3F1620F921D0F38D0090FEDA /* PS_headImageTableViewCell.swift */,
+				3F1620F721D0EE500090FEDA /* PS_TableViewController.swift */,
 				3F1620CE21D0A8940090FEDA /* Assets.xcassets */,
 				3F1620D021D0A8940090FEDA /* LaunchScreen.storyboard */,
 				3F1620D321D0A8940090FEDA /* Info.plist */,
@@ -264,7 +273,10 @@
 			files = (
 				3F1620CD21D0A8930090FEDA /* SavemoneyThree.xcdatamodeld in Sources */,
 				3F1620C721D0A8930090FEDA /* PersonalCenterViewController.swift in Sources */,
+				3F1620F821D0EE500090FEDA /* PS_TableViewController.swift in Sources */,
+				3F1620FC21D117360090FEDA /* updatePwdViewController.swift in Sources */,
 				3F1620C521D0A8930090FEDA /* AppDelegate.swift in Sources */,
+				3F1620FA21D0F38D0090FEDA /* PS_headImageTableViewCell.swift in Sources */,
 				3F1620F621D0C2770090FEDA /* FeedBackViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
